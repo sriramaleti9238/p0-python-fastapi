@@ -1,0 +1,31 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+python-jose
+PyJWT
+
+
+
+# class User(Base):
+#     __tablename__ = 'users'
+#
+#     id =Column(Integer, primary_key=True ,autoincrement=True)
+#     name= Column(String(50))
+#     email = Column(String(50))
+#     password = Column(String(50))
+#     userType = Column(String(50))
+#
+# class JobDetails(Base):
+#     __tablename__='jobs'
+#
+#     id = Column(Integer, primary_key=True , autoincrement=True)
+#     compName = Column(String(50))
+#     jobExperience = Column(String(50))
+#     jobRole = Column(String(50))
+#     techStack = Column(String(50))
+#     location = Column(String(50))
+#     salary = Column(Integer)
+#     dateOfApplication = Column(DateTime)
+#
+#     # Define ForeignKey relationship with User
+#     user_id = Column(Integer, ForeignKey('users.id'))
